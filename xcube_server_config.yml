@@ -1,0 +1,13 @@
+
+DataStores:
+
+  - Identifier: local-datasets
+    StoreId: file
+    StoreParams:
+      root: ./xcube-server-data/
+      max_depth: 1
+      storage_options:
+        anon: true
+    Datasets:
+      - Path: "*.levels"
+        Style: "default"

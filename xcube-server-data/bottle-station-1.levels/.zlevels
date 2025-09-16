@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "num_levels": 1,
+  "use_saved_levels": false,
+  "base_dataset_path": "bottle-station-1.zarr",
+  "agg_methods": {
+    "manitoba-Salinity-1": "first",
+    "manitoba-Temperature-1": "first"
+  }
+}

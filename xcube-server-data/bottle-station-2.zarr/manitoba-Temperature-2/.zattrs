@@ -1,0 +1,12 @@
+{
+    "4d_viewer_layer_type": "heatmap3d",
+    "_ARRAY_DIMENSIONS": [
+        "z",
+        "y",
+        "x"
+    ],
+    "grid_mapping": "spatial_ref",
+    "long_name": "manitoba-Temperature-2",
+    "short_name": "manitoba-Temperature-2",
+    "units": "C"
+}
