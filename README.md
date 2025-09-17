@@ -39,7 +39,7 @@ In the web application, the example data is available under **Data Browser → e
 
 ## Official DeepESDL 4D Viewer Documentation
 
-For detailed guidance on using the 4D Viewer interface, see:
+For detailed guidance on using the 4D Viewer web application user interface, see:
 [https://earthsystemdatalab.net/guide/visualisation/4d-viewer/](https://earthsystemdatalab.net/guide/visualisation/4d-viewer/)
 
 ---
@@ -48,6 +48,6 @@ For detailed guidance on using the 4D Viewer interface, see:
 
 This repository includes an example of publishing xcube-compatible data under the `/generating_example_data` folder.
 
-* Any xcube dataset supporting levels should work if `xcubeserver` can serve the data.
+* Any xcube dataset supporting levels should work if `xcube server` can serve the data.
 * You may need to update `xcube_server_config.yml` to add or modify data sources.
-* For more information, see the official xcube documentation: [https://xcube.readthedocs.io/en/latest/](https://xcube.readthedocs.io/en/latest/)
+* For more information, see the official xcube documentation: [https://xcube.readthedocs.io/en/latest/](https://xcube.readthedocs.io/en/latest/)/.

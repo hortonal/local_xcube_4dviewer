@@ -8,19 +8,6 @@
 		"context": ".."
     },
 
-	// "forwardPorts": [5003],      // <-- key line
-	// "portsAttributes": {
-	// 	"5003": {
-	// 	"label": "4D Viewer"
-	// 	}
-	// },
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// // Run after the docker image has been built
-	// "postCreateCommand": "pip install -r requirements.txt && pip install -r requirements-DEV.txt && pip install -e .",
-
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
@@ -34,7 +21,6 @@
 				"njpwerner.autodocstring",
 				"ms-python.flake8",
 				"devantler.git-extension-pack-new",
-				"ms-python.isort",
 				"ms-python.vscode-pylance",
 				"ms-python.python",
 				"ms-python.debugpy",
@@ -45,6 +31,7 @@
 			]
 		}
 	},
+	// Add additional mounts to local files as needed.
 	"mounts": [
 		"source=C:\\,target=/mnt/c,type=bind,consistency=cached"]
 }
