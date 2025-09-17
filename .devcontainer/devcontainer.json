@@ -33,5 +33,6 @@
 	},
 	// Add additional mounts to local files as needed.
 	"mounts": [
-		"source=C:\\,target=/mnt/c,type=bind,consistency=cached"]
+		"source=C:\\,target=/mnt/c,type=bind,consistency=cached",
+		"source=D:\\,target=/mnt/d,type=bind,consistency=cached"]
 }
